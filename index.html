@@ -382,7 +382,7 @@
 
             container.innerHTML = ''; 
             if (currentClassStudents.length > 0) {
-                container.innerHTML = '<div class="text-base text-slate-500 italic text-center py-4 bg-white/50 rounded-lg border border-dashed border-slate-300" id="emptyState">Tidak ada siswa yang absen (Hadir Semua)</div>';
+                container.innerHTML = '<div class="text-base text-slate-500 italic text-center py-4 bg-white/50 rounded-lg border border-dashed border-slate-300" id="emptyState">Tidak ada siswa yang absen</div>';
                 btnAddSiswa.disabled = false;
             } else {
                 container.innerHTML = `<div class="text-base text-red-500 italic text-center py-4 bg-white/50 rounded-lg border border-dashed border-red-300" id="emptyState">Data siswa kelas <b>${selectedClass}</b> tidak ditemukan.</div>`;
